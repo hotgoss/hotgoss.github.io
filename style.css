@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Kavoon&display=swap');
+
 
 body {
   background: #fdf2d6;
@@ -14,13 +15,25 @@ body {
 
 img {
   width: 90%;
+  max-width: 300px;
 }
 
-#intro p {
-  color: #c50b30;
+#next-show {
+  border: 1px solid #d85b1a;
+  background: #c50b30;
+  padding: 5px;
+  margin: 10px;
+}
+
+#next-show p {
+  color: #fdf2d6;
   text-shadow: 2px 2px 0px #d85b1a;
-  font-size: 24px;
-  font-family: "Seymour One";
+  font-family: "Creepster";
+  font-size: 36px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .fa, .fab {
